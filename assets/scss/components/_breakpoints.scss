@@ -88,7 +88,9 @@
   }
   .overflow-content {
     height: 500px;
+    overflow-x: none;
     overflow-y: auto;
+    width: 47rem;
   }
   .projects {
     &__content {
@@ -106,5 +108,10 @@
 
   .footer__copy {
     margin: 4.5rem 0 2.5rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body {
+    flex-direction: column;
   }
 }
