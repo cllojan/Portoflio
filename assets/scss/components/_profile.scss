@@ -62,6 +62,7 @@
     }
     &__info{
         grid-template-columns: repeat(3, max-content);
+        align-items: center;
         justify-content: center;
         column-gap: 2.5rem;
 
@@ -81,8 +82,7 @@
     &__buttons-small{
         display: flex;
         align-items: center;
-        justify-content: center;
-        width: 100%;
+        justify-content: center;        
     }
     
 }
