@@ -11,9 +11,15 @@
       column-gap: 1.5rem;
     }
     &__buttons {
+      
       flex-direction: column;
       row-gap: 1rem;
+      .button{
+        width: 1rem;
+      }
     }
+
+
   }
 
   .skills__box {
@@ -30,6 +36,14 @@
   .filters__content {
     width: 332px;
     margin: 3rem auto;
+  }
+  .profile{
+
+    &__buttons{
+      .button{
+        width: 50%;
+      }
+    }
   }
 }
 
@@ -69,7 +83,7 @@
       height: 120px;
 
       & img {
-        width: 90px;
+        width: 200px;
       }
     }
     &__profession {
@@ -82,8 +96,10 @@
         font-size: var(--small-font-size);
       }
     }
-    &__buttons {
-      column-gap: 2rem;
+    &__buttons{
+      .button{
+        width: 100%;
+      }
     }
   }
   .overflow-content {
